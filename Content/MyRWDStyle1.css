@@ -1,0 +1,88 @@
+﻿body {
+}
+
+.MyJumBack {
+    padding:60px;
+    background-image:url(.../IU/beauty/p007.jpg);
+    background-position:-10px,0px;
+    width:100vw;
+    height:40vh;
+}
+.MyJumBack h1,.MyJumBack p,.MyJumBack a,h2{
+    font-family:'Century Gothic';
+    letter-spacing:1px; 
+}
+h1{
+    font-family:微軟正黑體;
+    letter-spacing:1px;
+}
+p{
+    font-family:微軟正黑體;
+    width:550px;
+    font-size:14pt;
+    letter-spacing:1px; 
+    line-height:26px; 
+}
+.btn-default1 {
+  color: white;
+  border-color: white;
+}
+
+.topnav {
+    font-size: 20px; 
+    font-family:'Century Gothic';
+    background-color:#00003C;    
+}
+.topnavp {
+    font-size: 25px; 
+    font-family:'Century Gothic'; 
+    color:white; 
+}
+#container{
+    margin:auto;
+    padding:50px;
+}
+/*container2*/
+#container2{
+    margin:auto;
+    padding:10px;
+    width:100vw;
+    background-color:#000F3C;
+}
+#container2 h1{
+    color:white;
+}
+#container2 a,#container2 span{
+    color:white;
+    font-size:16pt;
+}
+.carousel-caption{
+    text-align:left;
+    color:black;
+    text-shadow:1px 1px 1px white;
+}
+#navbarUl>li>a{
+    color:white;
+}
+.content-section-a {
+    padding: 50px 0;
+    background-color: #f8f8f8;
+}
+.content-section-b {
+    padding: 50px 0;
+    border-top: 1px solid #e7e7e7;
+    border-bottom: 1px solid #e7e7e7;
+}
+.section-heading {
+    margin-bottom: 30px;
+}
+
+.section-heading-spacer {
+    float: left;
+    width: 200px;
+    border-top: 3px solid #e7e7e7;
+}
+.lead {
+    font-size: 18px;
+    font-weight: 400;
+}

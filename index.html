@@ -1,0 +1,171 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title></title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link href="Content/bootstrap.css" rel="stylesheet" />
+    <script src="Scripts/jquery-3.1.1.js"></script>
+    <script src="Scripts/bootstrap.js"></script>
+    <link href="Content/MyRWDStyle1.css" rel="stylesheet" />
+    <script>
+        $(document).ready(function () {
+            $("#carousell").carousel({ interval: 2000 });
+        });
+    </script>
+</head>
+<body>
+    <!--主頁面-->
+    <!--導覽列 -->
+    <nav class="navbar navbar-default navbar-fixed-top topnav" role="navigation" id="navall">
+        <div class="container topnav">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbarUl">
+                    <!--無障礙網頁專用-->
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#"><p class="topnavp">MARJORIE</p></a>
+                <!--連結放主頁的網址-->
+            </div>
+            <div class="collapse navbar-collapse">
+                <ul class="nav navbar-nav navbar-right" id="navbarUl">
+                    <li>
+                        <a href="#Boutiques">Boutiques</a>
+                    </li>
+                    <li>
+                        <a href="#About">About</a>
+                    </li>
+                    <li>
+                        <a href="#Contact">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <br /><br />
+
+    <!--圖片輪播-->
+    <div class="carousel slide" data-ride="carousel" id="carousell">
+        <ul class="carousel-indicators">
+            <li data-target="#carousell" data-slide-to="0" class="active"></li>
+            <li data-target="#carousell" data-slide-to="1"></li>
+            <li data-target="#carousell" data-slide-to="2"></li>
+            <li data-target="#carousell" data-slide-to="3"></li>
+        </ul>
+        <div class="carousel-inner">
+            <div class="item active">
+                <img src=".../IU/beauty/p010.jpg" />
+                <div class="carousel-caption">
+                    <h2>MARJORIE</h2>
+                    <button class="btn btn-default">時尚新知</button>
+                </div>
+            </div>
+            <div class="item">
+                <img src=".../IU/beauty/p011.jpg" />
+                <div class="carousel-caption">
+                    <h2>MARJORIE</h2>
+                    <button class="btn btn-default">時尚新知</button>
+                </div>
+            </div>
+            <div class="item">
+                <img src=".../IU/beauty/p013.jpg" />
+                <div class="carousel-caption">
+                    <h2>MARJORIE</h2>
+                    <button class="btn btn-default">人物特輯</button>
+                </div>
+            </div>
+            <div class="item">
+                <img src=".../IU/beauty/p019.jpg" />
+                <div class="carousel-caption">
+                    <h2>MARJORIE</h2>
+                    <button class="btn btn-default">時尚新知</button>
+                </div>
+            </div>
+            <div class="item">
+                <img src=".../IU/beauty/p016.jpg" />
+                <div class="carousel-caption">
+                    <h2>MARJORIE</h2>
+                    <button class="btn btn-default">時尚新知</button>
+                </div>
+            </div>
+        </div>
+        <a href="#carousell" data-slide="prev" class="carousel-control left">
+            <span class="glyphicon glyphicon-chevron-left"></span>
+        </a>
+        <a href="#carousell" class="carousel-control right" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right"></span>
+        </a>
+    </div>
+
+    <!--第2頁-->
+    <a name="About"></a>
+    <div class="content-section-b">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-5 col-lg-offset-1 col-sm-push-6  col-sm-6">
+                    <hr class="section-heading-spacer">
+                    <div class="clearfix"></div>
+                    <h1 class="section-heading">不夠特別，就不是瑪裘瑞！</h1>
+                    <p class="lead">
+                        Marjorie－瑪裘瑞，台灣自創品牌成立於2013年，<br />擁有自家購物網站，以及多家實體門市，<br />
+                        並是台灣少數有擁有自己製衣工作室的服飾品牌，<br />深受眾多模特兒和藝人的喜愛，<br />常常成為其私著清單。<br /><br />
+                    </p>
+                </div>
+                <div class="col-lg-5 col-sm-pull-6  col-sm-6">
+                    <img class="img-responsive" src=".../IU/beauty/p022.jpg" alt="">
+                </div>
+            </div>
+        </div>
+        <!-- /.container -->
+    </div>
+    <br /><br />
+    <div class="content-section-a">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-5 col-sm-6">
+                    <hr class="section-heading-spacer">
+                    <div class="clearfix"></div>
+                    <h1 class="section-heading">美學挑剔重症患</h1>
+                    <p class="lead">
+                        我們的作品風格強烈，品牌復古摩登又帶點個性感。<br />在瑪裘瑞，妳會發現每一件單品風格都不太一樣，<br />細節中充滿了設計巧思，
+                        融合不同的色彩元素，<br />豐富了妳對穿搭的期待，帶來無限驚喜!<br />我們希望每個穿上Marjorie獨創服飾的女孩，<br />都能詮釋出 屬於自己的味道。
+                    </p>
+                </div>
+                <div class="col-lg-5 col-lg-offset-2 col-sm-6">
+                    <img class="img-responsive" src=".../IU/beauty/p009.jpg" alt="">
+                </div>
+            </div>
+        </div>
+        <!-- /.container -->
+    </div>
+    <br /><br />
+
+    <!--第3頁-->
+    <a name="Boutiques"></a>
+    <div class="container" id="container2">
+        <div class="text-center col-md-6 col-md-offset-3 col-sm-10 col-sm-offset-1">
+            <h1>我們的專賣店</h1>
+            <hr />
+            <nav class="nav">
+                <a class="nav-link" href="#">台北店</a><span> |</span>
+                <a class="nav-link" href="#">台中福星店</a><span> |</span>
+                <a class="nav-link" href="#">台中逢甲店</a><span> |</span>
+                <a class="nav-link" href="#">新竹店</a>
+            </nav><br />
+        </div>
+        <img src=".../IU/beauty/map.png" class="img-responsive" style="display:block; margin:auto;" />
+    </div>
+
+    <!--第4頁-->
+    <a name="Contact"></a>
+    <div class="jumbotron MyJumBack col-md-12 col-sm-12">
+        <h1>Join Marjorie</h1>
+        <p>Professional Team</p>
+        <a href="#" class="btn btn-default1"><span>Contact Us</span></a>
+    </div>
+</body>
+</html>
